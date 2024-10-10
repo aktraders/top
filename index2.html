@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-image: url('https://traveltradejournal.com/wp-content/uploads/2021/08/Taj-Mahal.jpg'); /* Taj Mahal image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative; /* For footer positioning */
+        }
+        .container {
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            z-index: 1; /* Bring the container in front of the background */
+            font-size: small;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        blockquote {
+            font-style: italic;
+            margin: 20px 0;
+        }
+        img {
+            width: 100%; /* Make the image responsive */
+            max-width: 300px; /* Limit the maximum width */
+            border-radius: 10px; /* Add rounded corners */
+            margin-bottom: 20px; /* Space below the image */
+        }
+        .heartbeat {
+            width: 100px; /* Adjust the size as needed */
+            position: absolute;
+            bottom: 20px;
+            left: 45%;
+            transform: translateX(-50%);
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038_1280.jpg" alt="Couple Image">
+        <h1>OYEE MANASA...</h1>
+        <blockquote>I don't know if you will stay with me for life but I want you now.</blockquote>
+        <blockquote>If you don't marry me, I will be your life partner until you marry someone else.</blockquote>
+        <blockquote>Now I need you, your love. I only want.</blockquote>
+        <blockquote>Naaku Deenikante Baaga Proposal Cheyadam Inka Raadhu.Okati Matram Nijam Nuvvu Naaku Kavali Anipisthumdi😔..</blockquote>
+        <h1>I LOVE YOU...</h1>
+    </div>
+    <img src="https://png.pngtree.com/png-vector/20220428/ourmid/pngtree-smooth-glossy-heart-vector-file-ai-and-png-png-image_4557871.png" alt="Heartbeat" class="heartbeat" />
+
+</body>
+</html>
